@@ -57,8 +57,11 @@ def finetune_mBART():
 
 if __name__ == '__main__':
     tokenizer, model = finetune_mBART()
-    save_directory = "C:/Users/sammy/Desktop/Speech/"
+    # Save relative to where script is run
+    save_directory = Path.cwd() / "saved_model"
+    save_directory.mkdir(parents=True, exist_ok=True)
 
     # Save model and tokenizer
     model.save_pretrained(save_directory)
     tokenizer.save_pretrained(save_directory)
+
