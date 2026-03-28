@@ -1,0 +1,15 @@
+{
+  "train_examples": 1100,
+  "validation_examples": 140,
+  "lid_train": 650,
+  "lid_val": 80,
+  "ner_train": 450,
+  "ner_val": 60,
+  "sources": {
+    "fire_lid": [
+      "HindiEnglish_FIRE2013_AnnotatedDev.txt",
+      "HindiEnglish_FIRE2013_Test_GT.txt"
+    ],
+    "ner_csv": "annotatedData.csv"
+  }
+}

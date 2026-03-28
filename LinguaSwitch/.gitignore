@@ -1,0 +1,15 @@
+node_modules/
+.next/
+dist/
+build/
+__pycache__/
+.pytest_cache/
+.venv/
+*.egg-info/
+*.pyc
+.DS_Store
+.env
+
+# Raw GLUECoS/FIRE mirrors (regenerate via Data/build_vertex_cut.py)
+Data/source/
+

@@ -1,0 +1,7 @@
+# macOS / archives
+__MACOSX/
+.DS_Store
+
+# Secrets
+.env
+**/.env
